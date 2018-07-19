@@ -10,10 +10,10 @@
 	  </div>
 		<div class="header-right">
 		城市 <span class="iconfont arrow-icon">&#xe64a;</span>
-	  </div>	
+	  </div>
 	</div>
 	</div>
-	
+
 	<!-- scoped 只对当前组件有效 -->
 </template>
 
@@ -51,12 +51,12 @@ export default {
 			padding-left: .2rem
 			height: .64rem
 			margin-top: .12rem
-			margin-left: .2rem 
+			margin-left: .2rem
 			border-radius: .1rem
 		.header-right
 			width: 1.24rem
 			float: right
 			text-align: center
 			.arrow-icon
-				font-size: .24rem 
+				font-size: .24rem
 </style>
