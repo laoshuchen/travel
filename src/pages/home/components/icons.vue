@@ -1,5 +1,5 @@
 <template>
-	<div class="icons">
+	<div class="icons" style="margin-top: .2rem">
 		<swiper>
 		<swiper-slide v-for="(page,index) of pages" :key="index">
 		<div class="icon" v-for="item of page" :key="item.id">
@@ -128,9 +128,9 @@ export default {
 <style lang="stylus" scoped>
 @import '~stylus/variable.styl'
 @import '~stylus/mixins.styl'
-	.icons >>> .swiper-container
-		height: 0
-		padding-bottom: 50%
+.icons >>> .swiper-container
+	height: 0
+	padding-bottom: 50%
 	.icon
 		position: relative
 		float: left
