@@ -2,7 +2,7 @@
 	<div>
 		<div class="recommend-title">热销推荐</div>
 		<ul>
-			<li class="item" v-for="item of recommendList"
+			<li class="item border-bottom" v-for="item of recommendList"
 				:key="item.id">
 				<div class="item-img-wrapper" 
 				>
@@ -85,9 +85,9 @@ export default {
 			.item-desc
 				color: $gray-color
 			.item-button
-				display: block
-				width: 2rem
-	      line-height:1rem
-				margin-top: 0.1rem
-				background: #b73948
+				margin-top: .2rem
+				background: #ff9300
+				padding: 0 .2rem
+				border-radius: .06rem
+				color: #fff
 </style>
